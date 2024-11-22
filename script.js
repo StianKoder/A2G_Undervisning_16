@@ -48,7 +48,7 @@ function submit(event) {
 }
 
 function konvertering (event) {
-  event.preventDefault()
+  event.preventDefault() 
 
   const number = numberInput.value
 
