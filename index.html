@@ -15,6 +15,11 @@
     <main class="container">
       <h1>HTML Forms</h1>
       <form action="/submit" method="POST">
+        <div class="form-group">
+          <label for="number">Number</label>
+          <input type="number" id="number" name="number" />
+        </div>
+        <button id="konverter-button">Konverter</button>
         <fieldset>
           <legend>Personalia</legend>
           <div class="form-group">
@@ -49,15 +54,15 @@
         <fieldset>
           <legend>Hobbyer</legend>
           <label>
-            <input type="checkbox" name="hobby" value="fiske" />
+            <input class="red-checkbox" type="checkbox" id="fiske" name="hobby" value="fiske" />
             Fiske
           </label>
           <label>
-            <input type="checkbox" name="hobby" value="gaming" />
+            <input type="checkbox" id="gaming" name="hobby" value="gaming" />
             Gaming
           </label>
           <label>
-            <input type="checkbox" name="hobby" value="koding" />
+            <input type="checkbox" id="koding" name="hobby" value="koding" />
             Koding
           </label>
         </fieldset>
